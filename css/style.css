@@ -137,7 +137,7 @@ html,body{
 }
 @media (max-width:700px){
   .post-grid{ grid-template-columns:1fr; }
-  .nav-list{ position:absolute; right:12px; top:56px; background:rgba(255,255,255,0.95); padding:12px; border-radius:8px; flex-direction:column; display:none; box-shadow:0 12px 30px rgba(0,0,0,0.08); }
+  .nav-list{ position:absolute; gap:2px; right:5px; top:40px; background:rgba(255,255,255,0.95); padding:12px; border-radius:8px; flex-direction:column; display:none; box-shadow:0 12px 30px rgba(0,0,0,0.08); }
   .nav-list.show{ display:flex; }
   .hamburger{ display:inline-block; }
 }
